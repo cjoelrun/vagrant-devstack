@@ -35,7 +35,7 @@ Vagrant VM for running devstack and tempest.
 
         $ sudo /root/devstack/stack.sh
 
-1. Configure tempest (optional)
+1. Configure tempest (optional; required if running tempest tests)
 
         $ /opt/stack/devstack/tools/configure_tempest.sh
 
