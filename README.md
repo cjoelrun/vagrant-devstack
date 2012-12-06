@@ -3,6 +3,7 @@ Vagrant VM for running devstack and tempest.
 
 # Requirements
 * VirtualBox >= 4.2
+* NFS Server Support
 
 # Usage
 
