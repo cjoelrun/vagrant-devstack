@@ -4,6 +4,3 @@
 [submodule "cookbooks/vim"]
 	path = cookbooks/vim
 	url = https://github.com/opscode-cookbooks/vim.git
-[submodule "cookbooks/cookbook-devstack"]
-	path = cookbooks/cookbook-devstack
-	url = https://github.com/att-cloud/cookbook-devstack.git
