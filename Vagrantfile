@@ -4,6 +4,7 @@ cookbooks = "#{pwd}/cookbooks"
 
 tempest_path = [
   ENV['TEMPEST_PATH'],
+  "#{ENV['HOME']}/src/tempest",
   "#{ENV['HOME']}/repos/tempest",
   "#{pwd}/tempest"
 ]
