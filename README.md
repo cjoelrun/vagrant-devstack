@@ -7,19 +7,16 @@ Vagrant VM for running devstack and tempest.
 
 # Usage
 
-1. Install
+1. Clone repository
 
         $ git clone https://github.com/att-cloud/vagrant-devstack.git
 
-1. Change directory
+1. Initialize and update submodules
 
         $ cd vagrant-devstack
+        $ git submodule update --init
 
-1. Initialize and update git submodules
-
-        $ git submodule init && git submodule update
-
-1. Install gem dependencies
+1. Use [bundler](http://gembundler.com/) to install gem dependencies
 
         $ bundle install
 
