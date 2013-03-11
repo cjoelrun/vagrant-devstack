@@ -9,7 +9,7 @@ Vagrant VM for running devstack and tempest.
 
 1. Clone repository
 
-        $ git clone https://github.com/att-cloud/vagrant-devstack.git
+        $ git clone https://github.com/torandu/vagrant-devstack.git
 
 1. Initialize and update submodules
 
