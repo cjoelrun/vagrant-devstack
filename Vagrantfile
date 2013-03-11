@@ -3,9 +3,7 @@ pwd = File.expand_path(File.dirname(__FILE__))
 cookbooks = "#{pwd}/cookbooks"
 
 tempest_path = [
-  ENV['TEMPEST_PATH'],
-  "#{ENV['HOME']}/src/tempest",
-  "#{ENV['HOME']}/repos/tempest",
+  ENV['TEMPEST_ROOT_DIR'],
   "#{pwd}/tempest"
 ]
 
