@@ -1,3 +1,5 @@
+# vim: set ft=ruby
+
 pwd = File.expand_path(File.dirname(__FILE__))
 
 cookbooks = "#{pwd}/cookbooks"
